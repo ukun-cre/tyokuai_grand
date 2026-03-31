@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ひらがなクイズ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ひらがなクイズ</h1>
+        <div class="quiz-section">
+            <div class="character-display">
+                <span id="characterDisplay">あ</span>
+            </div>
+            <div class="options">
+                <button class="option-btn" id="option1">あ</button>
+                <button class="option-btn" id="option2">い</button>
+                <button class="option-btn" id="option3">う</button>
+                <button class="option-btn" id="option4">え</button>
+            </div>
+            <div class="result" id="resultDisplay"></div>
+        </div>
+        <button class="next-btn" id="nextBtn">次の問題</button>
+        <div class="score">
+            <p>正解数: <span id="scoreCount">0</span>/10</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
